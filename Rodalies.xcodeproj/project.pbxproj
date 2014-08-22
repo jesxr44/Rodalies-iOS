@@ -13,15 +13,18 @@
 		5E9A8A6319A7FA30008B7E77 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9A8A6219A7FA30008B7E77 /* CoreData.framework */; };
 		5E9A8A6919A7FA30008B7E77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A8A6719A7FA30008B7E77 /* InfoPlist.strings */; };
 		5E9A8A6B19A7FA30008B7E77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8A6A19A7FA30008B7E77 /* main.m */; };
-		5E9A8A6F19A7FA30008B7E77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8A6E19A7FA30008B7E77 /* AppDelegate.m */; };
 		5E9A8A7219A7FA30008B7E77 /* Rodalies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8A7019A7FA30008B7E77 /* Rodalies.xcdatamodeld */; };
-		5E9A8A7419A7FA30008B7E77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A8A7319A7FA30008B7E77 /* Images.xcassets */; };
 		5E9A8A7B19A7FA30008B7E77 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9A8A7A19A7FA30008B7E77 /* XCTest.framework */; };
 		5E9A8A7C19A7FA30008B7E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9A8A5C19A7FA30008B7E77 /* Foundation.framework */; };
 		5E9A8A7D19A7FA30008B7E77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9A8A6019A7FA30008B7E77 /* UIKit.framework */; };
 		5E9A8A7E19A7FA30008B7E77 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9A8A6219A7FA30008B7E77 /* CoreData.framework */; };
 		5E9A8A8619A7FA30008B7E77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A8A8419A7FA30008B7E77 /* InfoPlist.strings */; };
 		5E9A8A8819A7FA30008B7E77 /* RodaliesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8A8719A7FA30008B7E77 /* RodaliesTests.m */; };
+		5E9A8A9219A7FA4E008B7E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A8A9119A7FA4E008B7E77 /* Main.storyboard */; };
+		5E9A8A9719A7FD53008B7E77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A8A9619A7FD53008B7E77 /* Images.xcassets */; };
+		5E9A8A9D19A7FD99008B7E77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8A9A19A7FD99008B7E77 /* AppDelegate.m */; };
+		5E9A8AA019A7FDFA008B7E77 /* Linea.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8A9F19A7FDFA008B7E77 /* Linea.m */; };
+		5E9A8AA819A7FEEE008B7E77 /* PreferenciasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8AA719A7FEEE008B7E77 /* PreferenciasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +47,20 @@
 		5E9A8A6819A7FA30008B7E77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E9A8A6A19A7FA30008B7E77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E9A8A6C19A7FA30008B7E77 /* Rodalies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rodalies-Prefix.pch"; sourceTree = "<group>"; };
-		5E9A8A6D19A7FA30008B7E77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5E9A8A6E19A7FA30008B7E77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5E9A8A7119A7FA30008B7E77 /* Rodalies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rodalies.xcdatamodel; sourceTree = "<group>"; };
-		5E9A8A7319A7FA30008B7E77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E9A8A7919A7FA30008B7E77 /* RodaliesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RodaliesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9A8A7A19A7FA30008B7E77 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5E9A8A8319A7FA30008B7E77 /* RodaliesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RodaliesTests-Info.plist"; sourceTree = "<group>"; };
 		5E9A8A8519A7FA30008B7E77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E9A8A8719A7FA30008B7E77 /* RodaliesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RodaliesTests.m; sourceTree = "<group>"; };
+		5E9A8A9119A7FA4E008B7E77 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		5E9A8A9619A7FD53008B7E77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E9A8A9919A7FD99008B7E77 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E9A8A9A19A7FD99008B7E77 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E9A8A9E19A7FDFA008B7E77 /* Linea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linea.h; sourceTree = "<group>"; };
+		5E9A8A9F19A7FDFA008B7E77 /* Linea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linea.m; sourceTree = "<group>"; };
+		5E9A8AA619A7FEEE008B7E77 /* PreferenciasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenciasViewController.h; sourceTree = "<group>"; };
+		5E9A8AA719A7FEEE008B7E77 /* PreferenciasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenciasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +123,12 @@
 		5E9A8A6419A7FA30008B7E77 /* Rodalies */ = {
 			isa = PBXGroup;
 			children = (
-				5E9A8A6D19A7FA30008B7E77 /* AppDelegate.h */,
-				5E9A8A6E19A7FA30008B7E77 /* AppDelegate.m */,
-				5E9A8A7319A7FA30008B7E77 /* Images.xcassets */,
+				5E9A8A9819A7FD99008B7E77 /* AppDelegate */,
+				5E9A8A9B19A7FD99008B7E77 /* Assets */,
+				5E9A8A9C19A7FD99008B7E77 /* Models */,
+				5E9A8AA519A7FEEE008B7E77 /* ViewControllers */,
+				5E9A8A9619A7FD53008B7E77 /* Images.xcassets */,
+				5E9A8A9119A7FA4E008B7E77 /* Main.storyboard */,
 				5E9A8A7019A7FA30008B7E77 /* Rodalies.xcdatamodeld */,
 				5E9A8A6519A7FA30008B7E77 /* Supporting Files */,
 			);
@@ -151,6 +162,40 @@
 				5E9A8A8419A7FA30008B7E77 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E9A8A9819A7FD99008B7E77 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A8A9919A7FD99008B7E77 /* AppDelegate.h */,
+				5E9A8A9A19A7FD99008B7E77 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5E9A8A9B19A7FD99008B7E77 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5E9A8A9C19A7FD99008B7E77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A8A9E19A7FDFA008B7E77 /* Linea.h */,
+				5E9A8A9F19A7FDFA008B7E77 /* Linea.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E9A8AA519A7FEEE008B7E77 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A8AA619A7FEEE008B7E77 /* PreferenciasViewController.h */,
+				5E9A8AA719A7FEEE008B7E77 /* PreferenciasViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9A8A9719A7FD53008B7E77 /* Images.xcassets in Resources */,
 				5E9A8A6919A7FA30008B7E77 /* InfoPlist.strings in Resources */,
-				5E9A8A7419A7FA30008B7E77 /* Images.xcassets in Resources */,
+				5E9A8A9219A7FA4E008B7E77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,9 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9A8A6F19A7FA30008B7E77 /* AppDelegate.m in Sources */,
 				5E9A8A7219A7FA30008B7E77 /* Rodalies.xcdatamodeld in Sources */,
 				5E9A8A6B19A7FA30008B7E77 /* main.m in Sources */,
+				5E9A8A9D19A7FD99008B7E77 /* AppDelegate.m in Sources */,
+				5E9A8AA019A7FDFA008B7E77 /* Linea.m in Sources */,
+				5E9A8AA819A7FEEE008B7E77 /* PreferenciasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +418,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rodalies/Rodalies-Prefix.pch";
 				INFOPLIST_FILE = "Rodalies/Rodalies-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -383,6 +432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rodalies/Rodalies-Prefix.pch";
 				INFOPLIST_FILE = "Rodalies/Rodalies-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

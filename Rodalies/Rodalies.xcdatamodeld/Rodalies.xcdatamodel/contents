@@ -2,12 +2,13 @@
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Linea" representedClassName="Linea" syncable="YES">
         <attribute name="foto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itinerario" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="orden" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
         <attribute name="twitter" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Linea" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="Linea" positionX="-54" positionY="-9" width="128" height="135"/>
     </elements>
 </model>

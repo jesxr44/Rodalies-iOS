@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "LineaTableViewCell.h"
+#import "Linea.h"
 
-@interface PreferenciasViewController : UIViewController
+@interface PreferenciasViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

@@ -23,9 +23,10 @@
 		5E9A8A9219A7FA4E008B7E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A8A9119A7FA4E008B7E77 /* Main.storyboard */; };
 		5E9A8A9719A7FD53008B7E77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A8A9619A7FD53008B7E77 /* Images.xcassets */; };
 		5E9A8A9D19A7FD99008B7E77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8A9A19A7FD99008B7E77 /* AppDelegate.m */; };
-		5E9A8AA819A7FEEE008B7E77 /* PreferenciasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8AA719A7FEEE008B7E77 /* PreferenciasViewController.m */; };
-		5E9A8AB919A8F1A6008B7E77 /* Linea.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8AB819A8F1A6008B7E77 /* Linea.m */; };
 		5E9A8ABC19A8F23A008B7E77 /* CreaLineas.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8ABB19A8F23A008B7E77 /* CreaLineas.m */; };
+		5E9A8AC019A93D71008B7E77 /* PreferenciasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8ABF19A93D71008B7E77 /* PreferenciasViewController.m */; };
+		5E9A8AD719A947E6008B7E77 /* Linea.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8AD619A947E6008B7E77 /* Linea.m */; };
+		5E9A8ADA19A94C89008B7E77 /* LineaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8AD919A94C89008B7E77 /* LineaTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +59,14 @@
 		5E9A8A9619A7FD53008B7E77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5E9A8A9919A7FD99008B7E77 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E9A8A9A19A7FD99008B7E77 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E9A8AA619A7FEEE008B7E77 /* PreferenciasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenciasViewController.h; sourceTree = "<group>"; };
-		5E9A8AA719A7FEEE008B7E77 /* PreferenciasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenciasViewController.m; sourceTree = "<group>"; };
-		5E9A8AB719A8F1A6008B7E77 /* Linea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linea.h; sourceTree = "<group>"; };
-		5E9A8AB819A8F1A6008B7E77 /* Linea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linea.m; sourceTree = "<group>"; };
 		5E9A8ABA19A8F23A008B7E77 /* CreaLineas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreaLineas.h; sourceTree = "<group>"; };
 		5E9A8ABB19A8F23A008B7E77 /* CreaLineas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreaLineas.m; sourceTree = "<group>"; };
+		5E9A8ABE19A93D71008B7E77 /* PreferenciasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenciasViewController.h; sourceTree = "<group>"; };
+		5E9A8ABF19A93D71008B7E77 /* PreferenciasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenciasViewController.m; sourceTree = "<group>"; };
+		5E9A8AD519A947E6008B7E77 /* Linea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linea.h; sourceTree = "<group>"; };
+		5E9A8AD619A947E6008B7E77 /* Linea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linea.m; sourceTree = "<group>"; };
+		5E9A8AD819A94C89008B7E77 /* LineaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineaTableViewCell.h; sourceTree = "<group>"; };
+		5E9A8AD919A94C89008B7E77 /* LineaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineaTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,8 +189,7 @@
 		5E9A8AA519A7FEEE008B7E77 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				5E9A8AA619A7FEEE008B7E77 /* PreferenciasViewController.h */,
-				5E9A8AA719A7FEEE008B7E77 /* PreferenciasViewController.m */,
+				5E9A8ABD19A93D5A008B7E77 /* PreferenciasViewController */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -195,12 +197,31 @@
 		5E9A8AB619A8F192008B7E77 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5E9A8AB719A8F1A6008B7E77 /* Linea.h */,
-				5E9A8AB819A8F1A6008B7E77 /* Linea.m */,
+				5E9A8AD519A947E6008B7E77 /* Linea.h */,
+				5E9A8AD619A947E6008B7E77 /* Linea.m */,
 				5E9A8ABA19A8F23A008B7E77 /* CreaLineas.h */,
 				5E9A8ABB19A8F23A008B7E77 /* CreaLineas.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5E9A8ABD19A93D5A008B7E77 /* PreferenciasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A8ABE19A93D71008B7E77 /* PreferenciasViewController.h */,
+				5E9A8ABF19A93D71008B7E77 /* PreferenciasViewController.m */,
+				5E9A8AC419A93DF8008B7E77 /* PreferenciasTableViewController */,
+			);
+			path = PreferenciasViewController;
+			sourceTree = "<group>";
+		};
+		5E9A8AC419A93DF8008B7E77 /* PreferenciasTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5E9A8AD819A94C89008B7E77 /* LineaTableViewCell.h */,
+				5E9A8AD919A94C89008B7E77 /* LineaTableViewCell.m */,
+			);
+			path = PreferenciasTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,11 +321,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E9A8A7219A7FA30008B7E77 /* Rodalies.xcdatamodeld in Sources */,
+				5E9A8AD719A947E6008B7E77 /* Linea.m in Sources */,
+				5E9A8ADA19A94C89008B7E77 /* LineaTableViewCell.m in Sources */,
 				5E9A8A6B19A7FA30008B7E77 /* main.m in Sources */,
+				5E9A8AC019A93D71008B7E77 /* PreferenciasViewController.m in Sources */,
 				5E9A8A9D19A7FD99008B7E77 /* AppDelegate.m in Sources */,
-				5E9A8AA819A7FEEE008B7E77 /* PreferenciasViewController.m in Sources */,
 				5E9A8ABC19A8F23A008B7E77 /* CreaLineas.m in Sources */,
-				5E9A8AB919A8F1A6008B7E77 /* Linea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

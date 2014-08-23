@@ -9,6 +9,9 @@
 #import "PreferenciasViewController.h"
 
 @interface PreferenciasViewController ()
+@property (strong, nonatomic) IBOutlet UIView *vistaTabla;
+@property(nonatomic, strong) NSArray *lineasArray;
+@property (strong, nonatomic) IBOutlet UITableView *lineasTabla;
 
 @end
 
@@ -43,6 +46,50 @@
 //    for (NSManagedObject *linea in sortedArray) {
 //        NSLog(@"Nombre: %@", [linea valueForKey:@"nombre"]);
 //    }
+    
+    self.lineasTabla.delegate = self;
+    self.lineasTabla.dataSource = self;
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Linea"
+                                              inManagedObjectContext:[[AppDelegate sharedAppDelegate] managedObjectContext]];
+    [fetchRequest setEntity:entity];
+    
+    NSError *error;
+    NSArray *fetchedObjects = [[[AppDelegate sharedAppDelegate] managedObjectContext] executeFetchRequest:fetchRequest error:&error];
+    
+    NSSortDescriptor *valueDescriptor = [[NSSortDescriptor alloc] initWithKey:@"orden" ascending:YES];
+    NSArray *descriptors = [NSArray arrayWithObject:valueDescriptor];
+    self.lineasArray = [fetchedObjects sortedArrayUsingDescriptors:descriptors];
+    
+    
+    
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    // Return the number of rows in the section.
+    return self.lineasArray.count;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    LineaTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Linea" forIndexPath:indexPath];
+    
+    Linea *linea = [self.lineasArray objectAtIndex:indexPath.row];
+    
+    cell.nombre.text = linea.nombre;
+    cell.itinerario.text = linea.itinerario;
+    cell.imagen.image = [UIImage imageNamed:linea.foto];
+    
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning

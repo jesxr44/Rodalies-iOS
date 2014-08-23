@@ -2,7 +2,7 @@
 //  Linea.h
 //  Rodalies
 //
-//  Created by Jesús Escribano on 23/08/14.
+//  Created by Jesús Escribano on 24/08/14.
 //  Copyright (c) 2014 Running Dogs Studio. All rights reserved.
 //
 
@@ -17,5 +17,6 @@
 @property (nonatomic, retain) NSString * twitter;
 @property (nonatomic, retain) NSString * url;
 @property (nonatomic, retain) NSNumber * orden;
+@property (nonatomic, retain) NSString * itinerario;
 
 @end

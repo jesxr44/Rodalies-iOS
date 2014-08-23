@@ -14,30 +14,16 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
++ (AppDelegate *)sharedAppDelegate
+{
+    return (AppDelegate *) [UIApplication sharedApplication].delegate;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    NSManagedObjectContext *context = [self managedObjectContext];
-    
-    NSManagedObject *lineaR1 = [NSEntityDescription
-                                insertNewObjectForEntityForName:@"Linea"
-                                inManagedObjectContext:context];
-    [lineaR1 setValue:@"R1" forKey:@"nombre"];
-    [lineaR1 setValue:@"http://www.gencat.cat/rodalies/incidencies_rodalies_rss_r1_ca_ES.xml" forKey:@"url"];
-    [lineaR1 setValue:@"rodalia1" forKey:@"twitter"];
-    [lineaR1 setValue:@"R1" forKey:@"foto"];
-    
-    NSManagedObject *lineaR2Nord = [NSEntityDescription
-                                    insertNewObjectForEntityForName:@"Linea"
-                                    inManagedObjectContext:context];
-    [lineaR2Nord setValue:@"R2 Nord" forKey:@"nombre"];
-    [lineaR2Nord setValue:@"http://www.gencat.cat/rodalies/incidencies_rodalies_rss_r2_nord_ca_ES.xml" forKey:@"url"];
-    [lineaR2Nord setValue:@"rodalia2" forKey:@"twitter"];
-    [lineaR2Nord setValue:@"R2Nord" forKey:@"foto"];
-    
-    NSError *error;
-    if (![context save:&error]) {
-        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    if (![CreaLineas baseDeDatosExistente])
+    {
+        [CreaLineas crearLineas];
     }
     
     return YES;

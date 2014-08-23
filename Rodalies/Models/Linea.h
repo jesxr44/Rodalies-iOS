@@ -12,9 +12,10 @@
 
 @interface Linea : NSManagedObject
 
-@property (nonatomic, retain) NSString * nombre;
-@property (nonatomic, retain) NSString * url;
-@property (nonatomic, retain) NSString * twitter;
 @property (nonatomic, retain) NSString * foto;
+@property (nonatomic, retain) NSString * nombre;
+@property (nonatomic, retain) NSString * twitter;
+@property (nonatomic, retain) NSString * url;
+@property (nonatomic, retain) NSNumber * orden;
 
 @end

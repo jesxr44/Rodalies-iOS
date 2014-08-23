@@ -11,9 +11,10 @@
 
 @implementation Linea
 
-@dynamic nombre;
-@dynamic url;
-@dynamic twitter;
 @dynamic foto;
+@dynamic nombre;
+@dynamic twitter;
+@dynamic url;
+@dynamic orden;
 
 @end

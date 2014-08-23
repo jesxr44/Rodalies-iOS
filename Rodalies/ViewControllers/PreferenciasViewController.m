@@ -27,6 +27,22 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+//    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Linea"
+//                                              inManagedObjectContext:[[AppDelegate sharedAppDelegate] managedObjectContext]];
+//    [fetchRequest setEntity:entity];
+//    
+//    NSError *error;
+//    NSArray *fetchedObjects = [[[AppDelegate sharedAppDelegate] managedObjectContext] executeFetchRequest:fetchRequest error:&error];
+//    
+//    NSSortDescriptor *valueDescriptor = [[NSSortDescriptor alloc] initWithKey:@"orden" ascending:YES];
+//    NSArray *descriptors = [NSArray arrayWithObject:valueDescriptor];
+//    NSArray *sortedArray = [fetchedObjects sortedArrayUsingDescriptors:descriptors];
+//    
+//    for (NSManagedObject *linea in sortedArray) {
+//        NSLog(@"Nombre: %@", [linea valueForKey:@"nombre"]);
+//    }
 }
 
 - (void)didReceiveMemoryWarning
